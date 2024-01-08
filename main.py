@@ -35,4 +35,14 @@ x = str("Hello World") #str
 x = int(6) #int
 x = float(20.5) #float
 x = complex(20j) #complex
-# TODO: Complete specific data types beginning from sequence
+x = list(("apple", "banana", "cherry")) #list
+x = tuple(("apple", "banana", "cherry")) #tuple
+x = range(6) #range
+x = dict(name="John", age=36) #dict
+x = set(("apple", "banana", "cherry")) #set
+x = frozenset(("apple", "banana", "cherry")) #frozenset
+# * If bool() is 0 it returns false else it returns true for all the integers 
+x = bool(1) #bool
+x = bytes(5) #byte
+x = bytearray(5) #bytearray
+x = memoryview(bytes(5)) #memoryview 
