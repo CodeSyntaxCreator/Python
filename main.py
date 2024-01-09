@@ -59,3 +59,12 @@ z = 1j   # complex
 #Complex - Complex numbers are written with a "j" as the imaginary part:
 
 
+## Casting
+int() #Cast to int(Integer)
+float() #Cast to Float
+str() #Cast to String
+int(1.7) #1
+float(23) #23.0
+str(13.5) #"13.5"
+
+
