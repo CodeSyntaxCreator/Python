@@ -37,12 +37,26 @@ b = "Hello, World!"
 #NOTE: it starts from 0
 
 #Slicing from the start
-print(b[:5])
+#print(b[:5])
 
 #Slicing to the end
-print(b[2:])
+#print(b[2:])
 
 #Negative Indexing
-print(b[-5:-2]) #from -5 to -2
+#print(b[-5:-2]) #from -5 to -2
 
+#Modifying Strings
+a = "Hello, World!  "
+print(a.upper()) # Upper Case
+print(a.lower()) # Lower Case
+print(a.strip()) # Remove Whitespace
+print(a.replace("Hello", "Hi")) #Replace "Hello" with "Hi"
+print(a.split(",")) # spilts before and after ","
+print(a.capitalize()) #Makes first char uppercase and everything else lowercase
+print(a.casefold()) # Lower case similar to lower()
+print(a.count("o")) # returns the number of times a specified value appears in the string
+print(a.encode()) #Encode it to UTF-8
+print(a.endswith(".")) # returns True if the string ends with the specified value, otherwise False
+print(a.expandtabs()) #sets the tab size to specifed number of whitespaces. default - 8
+print(a.index("l")) # returns the first time it is found. begins from 0
 #TODO: Remove # from all print after the lesson
