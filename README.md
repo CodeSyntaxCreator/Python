@@ -1,1 +1,2 @@
-# Learning
+# Learning Python
+Now made public
