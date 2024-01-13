@@ -47,19 +47,26 @@ b = "Hello, World!"
 
 #Modifying Strings
 a = "Hello, World!  "
-print(a.upper()) # Upper Case
-print(a.lower()) # Lower Case
-print(a.strip()) # Remove Whitespace
-print(a.replace("Hello", "Hi")) #Replace "Hello" with "Hi"
-print(a.split(",")) # spilts before and after ","
-print(a.capitalize()) #Makes first char uppercase and everything else lowercase
-print(a.casefold()) # Lower case similar to lower()
-print(a.count("o")) # returns the number of times a specified value appears in the string
-print(a.encode()) #Encode it to UTF-8
-print(a.endswith(".")) # returns True if the string ends with the specified value, otherwise False
-print(a.expandtabs()) #sets the tab size to specifed number of whitespaces. default - 8
-print(a.index("l")) # returns the first time it is found. begins from 0
+#print(a.upper()) # Upper Case
+#print(a.lower()) # Lower Case
+#print(a.strip()) # Remove Whitespace
+#print(a.replace("Hello", "Hi")) #Replace "Hello" with "Hi"
+#print(a.split(",")) # spilts before and after ","
+#print(a.capitalize()) #Makes first char uppercase and everything else lowercase
+#print(a.casefold()) # Lower case similar to lower()
+#print(a.count("o")) # returns the number of times a specified value appears in the string
+#print(a.encode()) #Encode it to UTF-8
+#print(a.endswith(".")) # returns True if the string ends with the specified value, otherwise False
+#print(a.expandtabs()) #sets the tab size to specifed number of whitespaces. default - 8
+#print(a.index("l")) # returns the first time it is found. begins from 0
 
 #String Concatenation
-print("Hello" + " World" + "!") #Hello World!
+#print("Hello" + " World" + "!") #Hello World!
+
+#String Format
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price)) #3,567,49.95
 #TODO: Remove # from all print after the lesson
