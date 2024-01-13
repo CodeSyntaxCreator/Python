@@ -66,14 +66,3 @@ str() #Cast to String
 int(1.7) #1
 float(23) #23.0
 str(13.5) #"13.5"
-
-
-##Strings
-"Hello" #Double quotation
-'Hello' # single quotation
-
-multiline_string = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-#print(multiline_string)

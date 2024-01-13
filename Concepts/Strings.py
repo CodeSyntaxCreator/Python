@@ -59,4 +59,7 @@ print(a.encode()) #Encode it to UTF-8
 print(a.endswith(".")) # returns True if the string ends with the specified value, otherwise False
 print(a.expandtabs()) #sets the tab size to specifed number of whitespaces. default - 8
 print(a.index("l")) # returns the first time it is found. begins from 0
+
+#String Concatenation
+print("Hello" + " World" + "!") #Hello World!
 #TODO: Remove # from all print after the lesson
